@@ -17,7 +17,7 @@ function onSpeak(e){
 
 function exibeChute(chute){
     elementoChute.innerHTML = `
-        <div>Você disse</div>
+        <div class="disse">Você disse</div>
         <span class="box">${chute}</span>
     `
 }
